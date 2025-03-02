@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <title>Contact Us</title>
+    <style>
+      .navbar .sgu {
+        background-color: lightgray;
+        border-radius: 0px;
+      }
+      .navbar .lgn,
+      .navbar .sgu {
+        font-size: 14.5px;
+        /* background-color: white; */
+        padding: 9px 41px;
+        font-weight: bold;
+      }
+      .collapse a {
+        font-size: 23px;
+      }
+      .hero {
+        background-color: #f4f4f4;
+      }
+
+      /* /* .formalt {
+        width: 615px;
+        height: 62px;
+        border-radius: 10px;
+        border-width: 2px; */
+
+      .container h6 {
+        color: black;
+      }
+      /* .topleft {
+        text-align: left;
+        padding-bottom: 160px;
+      } */
+      .mtch {
+        background-color: #949494;
+      }
+      /* .btn h6 {
+        color: #ffffff;
+      } */
+      ::placeholder {
+        color: #f3f2f2;
+        font-size: 19px;
+        font-weight: 500;
+      }
+      .bdy-2,
+      .bdy-1 {
+        font-family: poppins;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+      <form class="container justify-content-end">
+        <button class="btn lgn" type="button">LOGIN</button>
+        <button class="btn sgu" type="button">SIGNUP</button>
+      </form>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-secodary shadow">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand fw-bold" href="#">
+          <img
+            src="assets/images/ACE-GroupNG-logo.png"
+            alt="Logo"
+            height="80"
+            width="100"
+          />
+        </a>
+
+        <!-- Mobile Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav fs-2">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="venue.html">Venue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="supplier.html">Supplier</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Media</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Search Icon -->
+        <div class="d-none d-lg-block">
+          <a href="#" class="text-dark">
+            <i class="bi bi-search" style="font-size: 1.3rem"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- <div>Hero</div> -->
+    <section class="hero">
+      <div class="hero-1 container d-flex justify-content-center">
+        <p class="mt-5 mb-10 fs-1 fw-semibold">We are ACE-GroupNG Lmtd</p>
+      </div>
+
+      <div class="d-flex mt-4 justify-content-center fs-1">We bring</div>
+      <div class="d-flex justify-content-center fs-1 fw-semibold">
+        dream weddings
+      </div>
+      <div class="d-flex justify-content-center fs-1">to life</div>
+    </section>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="bdy-1 col">
+          <h1>Say Hello!</h1>
+          <form>
+            <div class="mb-3">
+              <label for="full-name" class="form-label"
+                ><h6>Full Name</h6></label
+              >
+              <input
+                type="text"
+                class="form-control py-2"
+                id="full-name"
+                placeholder="enter-name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="contact-number" class="form-label"
+                ><h6>Contact Number</h6></label
+              >
+              <input
+                type="number"
+                class="form-control py-2"
+                id="number"
+                placeholder="contact-number"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email-address" class="form-label"
+                ><h6>Email Address</h6></label
+              >
+              <input
+                type="email"
+                class="form-control py-2"
+                id="email"
+                placeholder="email-address"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <input
+                type="text"
+                id="message"
+                placeholder="enter-your-message"
+                class="form-control py-5 pt-2"
+              />
+            </div>
+
+            <button type="submit" class="btn mtch text-white w-100 py-2">
+              Submit
+            </button>
+          </form>
+        </div>
+        <div class="col bdy-2 ms-5">
+          <h3>Vendors</h3>
+          <p>
+            If you are a registered vendor or a business looking to <br />
+            promote your brand on our portal, please send in your <br />
+            queries at vendors@comany.com
+          </p>
+          <h3>Marketing Collaborations</h3>
+          <p>
+            For brand collaborations - sponsored content, social <br />
+            media activations etc., please write into <br />
+            partnerships@comany.com
+          </p>
+          <h3>Wedding Submissions</h3>
+          <p>
+            Ace-GroupNG features wedding across cultures,<br />
+            styles and budgets. To submit your wedding, kindly <br />
+            email us 15-20 photos at submissions@comany.com
+          </p>
+          <h3>Careers</h3>
+          <p>
+            We are a team of passionate young minds looking to <br />
+            reinvent the wedding space. Please check our careers <br />
+            page for current openings and email us at hr@comany.com
+          </p>
+          <h3>Customers</h3>
+          <p>
+            We love to hear from our precious users. For any <br />
+            feedback or queries simply write in to <br />
+            info@comany.com
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container p-5 bg-opacity-10 bg-secondary my-5">
+      <div class="card border-0">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://picsum.photos/id/264/305/305/"
+              class="img-fluid rounded-start"
+              height="10px"
+              alt="marketing"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">What Is True Marketing</h5>
+              <p class="card-text">
+                Marketing is about values. It is a complicated and noisy world,
+                and we are not going to get a chance to get people to remember
+                much about us. No company is. So we have to be really clear
+                about what we want them to know about us.The goal of marketing
+                is to create a customer who is so loyal, they will never
+                consider buying from anyone else.
+              </p>
+              <div class="d-flex justify-content-end">
+                <button
+                  type="button"
+                  style="background-color: #c6c4c4"
+                  class="btn w-25"
+                >
+                  C T A
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-body-tertiary mt-5 py-5">
+      <div class="container">
+        <div class="row gy-4 gx-3">
+          <div class="col col-md-2 text-center">
+            <div class="about">
+              <img
+                src="assets/images/logo.ico"
+                width="50"
+                height="50"
+                loading="lazy"
+                alt=""
+              />
+            </div>
+            <div class="about-text">
+              <h6 class="my-3">Follow Us On:</h6>
+              <i class="fab fa-facebook-f mx-2"></i>
+              <i class="fab fa-twitter mx-2"></i>
+              <i class="fab fa-linkedin-in mx-2"></i>
+              <i class="fab fa-instagram mx-2"></i>
+            </div>
+          </div>
+          <div class="col col-md-2">
+            <h5 class="mb-4">Venues</h5>
+            <p class="fs-6"><a href="#">Abhu Dhabi</a></p>
+            <p><a href="#">Al Ain</a></p>
+            <p><a href="#">AljMan</a></p>
+            <p><a href="#">Dubai</a></p>
+            <p><a href="#">Fujarati</a></p>
+            <p><a href="#">Raz Ai Khaiman</a></p>
+          </div>
+          <div class="col col-md-2">
+            <h5 class="mb-4">Suppliers</h5>
+            <p><a href="#">Photography</a></p>
+            <p><a href="#">Decorators</a></p>
+            <p><a href="#">Venue Planners</a></p>
+            <p><a href="#">Choreographers</a></p>
+            <p><a href="#">Designers</a></p>
+            <p><a href="#">MakeUp Artists</a></p>
+          </div>
+          <div class="col col-md-2">
+            <h5 class="mb-4">Quick Links</h5>
+            <p><a href="#">About Us</a></p>
+            <p><a href="#">Careers</a></p>
+            <p><a href="#">Contact Us</a></p>
+            <p><a href="#">Privacy Policy</a></p>
+            <p><a href="#">Terms & Conditions</a></p>
+          </div>
+          <div class="col col-md-4">
+            <h5 class="mb-4">Newsletter</h5>
+            <p>Subscribe to get latest media updates.</p>
+            <button type="button" class="btn btn-outline-secondary">
+              Live chat
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
